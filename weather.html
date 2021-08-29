@@ -15,13 +15,13 @@
 
     <div id="container">
         <h1>Météo</h1>
-        <p>Paris</p>
-        <h2>xx.x <span>°C</span> </h2>
+        <p id="city">City</p>
+        <h2><span id="temperature">xx.x</span> °C</h2>
         <div class="wrapper">
             <a class="button" href="#">Changer de ville</a>
         </div>
+      
         
-        <!-- Filter: https://css-tricks.com/gooey-effect/ -->
         <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
                 <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
